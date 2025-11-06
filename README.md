@@ -9,6 +9,7 @@
 ## My Solution
 
 Okay i’ll break down the problem, so we have been given two parametric equations which are as follows, i’ll paste the screenshots here.
+I'll keep the sources or references in between the content.
 
 ![](https://raw.githubusercontent.com/blueee04/Flam_R-D_Assignment/refs/heads/main/Screenshot%202025-11-07%20014813.png)
 
@@ -37,8 +38,13 @@ I’ll try this out in a google colab notebook
 Okay so one more thing i tried out two optimization techniques:
 
 - The first thing that came up to my mind - Normal Manual Gradient Descent Updating the params with each epoch which didnot give me a close output
+*I have implemented this before in my personal projects so i didn't need any help*
+  
 - Then i did i bit of research about what optimization is best for this type of problems and it turns out there is one called the minimize function in the scipy library which adjusts the params according to the Sum of the squared errors
+  [How to use mninimize](https://stackoverflow.com/questions/30135587/how-to-use-scipy-optimize-minimize)
+  
 - Bonus out of curiosity i tried out another optimization method - curve_fit(added in colab)
+  [curve_fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html)
 
 So the final weights that i have received before the error converges are:
 
