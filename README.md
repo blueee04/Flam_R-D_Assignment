@@ -32,6 +32,8 @@ Let me write down a outline or pseudocode:
 
 I’ll try this out in a google colab notebook
 
+[Link to the colab](https://colab.research.google.com/drive/1nPfUw3Xy4BqL7fVjcmukFJSClqS6axyh?usp=sharing)
+
 Okay so one more thing i tried out two optimization techniques:
 
 - The first thing that came up to my mind - Normal Manual Gradient Descent Updating the params with each epoch which didnot give me a close output
