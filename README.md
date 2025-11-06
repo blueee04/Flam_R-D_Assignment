@@ -10,6 +10,8 @@
 
 Okay i’ll break down the problem, so we have been given two parametric equations which are as follows, i’ll paste the screenshots here.
 
+![](https://raw.githubusercontent.com/blueee04/Flam_R-D_Assignment/refs/heads/main/Screenshot%202025-11-07%20014813.png)
+
 We have been asked to estimate the unknowns theta,M,X from the given parametric curve, we have also been provided with the (x,y) data. From the looks of it, this looks like a curve fitting problem.
 
 Let’s start with the solving and overview then
@@ -38,19 +40,19 @@ Okay so one more thing i tried out two optimization techniques:
 
 So the final weights that i have received before the error converges are:
 
-Gradient Descent : Estimated: theta=50.00 deg, M=-0.05000, X=0.00
+**Gradient Descent : Estimated: theta=50.00 deg, M=-0.05000, X=0.00**
 
-Minimize and Curve_fit : 	Estimated theta: 29.58 degrees
+Minimize and Curve_fit : **	Estimated theta: 29.58 degrees**
 
-Estimated M: -0.05000
+**Estimated M: -0.05000**
 
-Estimated X: 55.01
+**Estimated X: 55.01**
 
 Final Errors For both :
 
-Gradient Descent - Iteration 900: error=4.91e+06, params=[0.e+00 5.e-02 1.e+02]
+Gradient Descent -**Iteration 900: error=4.91e+06, params=[0.e+00 5.e-02 1.e+02]**
 
-Minimize and curve_fit - 7.72e+05
+Minimize and curve_fit - **7.72e+05**
 
 Finally Both The Equations Are as Follows in latex form :
 
@@ -66,10 +68,10 @@ $$
 \\left(t*\\cos(29.58)-e^{-0.05\\left|t\\right|}\\cdot\\sin(0.3t)\\sin(29.58)\\ +55.01,\\ 42+t\\cdot\\sin\\left(29.58\\right)+e^{-0.05\\left|t\\right|}\\cdot\\sin\\left(0.3t\\right)\\cos\\left(29.58\\right)\\right)
 $$
 
-<iframe src="https://www.desmos.com/calculator/ksg0xydj8f?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+![](https://raw.githubusercontent.com/blueee04/Flam_R-D_Assignment/refs/heads/main/desmos-graph.png)
 
-The Thick purple shows the given Data points
+**The Thick purple shows the given Data points**
 
-The Red curve shows the optimization by gradient descent
+**The Red curve shows the optimization by gradient descent**
 
-The thin purple one shows the optimization by minimize or loss_curve
+**The thin purple one shows the optimization by minimize or loss_curve**
