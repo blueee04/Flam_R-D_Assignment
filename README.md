@@ -66,6 +66,8 @@ $$
 \\left(t*\\cos(29.58)-e^{-0.05\\left|t\\right|}\\cdot\\sin(0.3t)\\sin(29.58)\\ +55.01,\\ 42+t\\cdot\\sin\\left(29.58\\right)+e^{-0.05\\left|t\\right|}\\cdot\\sin\\left(0.3t\\right)\\cos\\left(29.58\\right)\\right)
 $$
 
+<iframe src="https://www.desmos.com/calculator/ksg0xydj8f?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
 The Thick purple shows the given Data points
 
 The Red curve shows the optimization by gradient descent
