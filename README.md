@@ -42,7 +42,7 @@ So the final weights that i have received before the error converges are:
 
 **Gradient Descent : Estimated: theta=50.00 deg, M=-0.05000, X=0.00**
 
-Minimize and Curve_fit : **	Estimated theta: 29.58 degrees**
+Minimize and Curve_fit : **Estimated theta: 29.58 degrees**
 
 **Estimated M: -0.05000**
 
